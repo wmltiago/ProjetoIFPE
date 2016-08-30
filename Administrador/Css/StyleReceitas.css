@@ -1,0 +1,33 @@
+body{
+	background-color: black;
+	color: white;
+	font-size: 19px;
+   
+}
+
+label{
+	
+	margin-bottom: 1em;
+}
+
+h1{
+	text-align: center;
+}
+.AlinhaTexto{
+	text-align: right;
+	
+}
+
+
+
+textarea{	
+    width: 200%; 
+    height: 100px; 
+    resize: none; 
+	
+}
+
+input[type="text"]:focus, textarea:focus{
+	
+	 background-color: #FFC;
+}

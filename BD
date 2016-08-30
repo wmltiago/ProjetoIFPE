@@ -1,0 +1,8 @@
+create database comidaemcena;
+use  comidaemcena;
+create table filme(nome_filme varchar (50) NOT NULL, imagem_filme blob NOT NULL,genero_filme varchar (50)NOT NULL, ano_filme int (4)NOT NULL,frase_filme varchar(50)NOT NULL,descricao_filme varchar(500)NOT NULL,codigo_filme int (0) auto_increment, primary key(codigo_filme));
+create table receita (nome_receita varchar(50)NOT NULL,imagem_receita blob NOT NULL, ingredientes varchar(500)NOT NULL, passo_a_passo varchar(500)NOT NULL, categoria_receita varchar (50)NOT NULL,codigo_receita int (0)auto_increment,primary key(codigo_receita));
+create table usuario(nome_usuario varchar (50)NOT NULL,estado_usuario varchar(50)NOT NULL,data_usuario varchar (50)NOT NULL, username varchar (20)NOT NULL, email_usuario varchar (50)NOT NULL,senha_usuario varchar (100)NOT NULL, codigo_usuario int (0) auto_increment,imagem_usuario blob,nivel_ADM int(1), primary key (codigo_usuario));
+
+insert into usuario(nome_usuario,estado_usuario,data_usuario,username,email_usuario,senha_usuario,nivel_ADM)
+values("Administrador","PE","00/00/0000","Administrador","Admin@hotmail.com","e698f2679be5ba5c9c0b0031cb5b057c",10);

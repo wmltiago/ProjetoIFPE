@@ -1,0 +1,92 @@
+
+body{
+	
+	background: #000000;
+}
+
+
+.formulario fieldset {
+	margin-top:20px;
+    margin-right: ;
+    margin-left: 200px ;
+	border-color: #FFFFFF;
+	border-width:2px;
+	font-family: 'Indie Flower', bold;
+	font-size: 22px;
+	color: #FFFFFF;
+	width: 60%;
+	
+	/*Margin define a margem da borda. 
+	Widht o tamanho da borda. 
+	Color cor.*/
+}
+.formulario input[type="text"],[type="password"], select{
+	
+	color: #000000; /*Cor da fonte*/
+	border: 5px; /*tamanho da linha borda dos campos*/
+    border-style: inset; /*estilo da borda*/
+	margin-bottom: 1em; /*espaçamento entre os campos*/
+	border-width:2px; /*tamanho da borda*/
+	padding: 9px;
+	font-size:19px;
+	
+	
+}
+
+.AlinhaTexto{
+	text-align: right;
+}
+
+.formulario input[type="text"]:focus,[type="password"]:focus{
+	
+	 background-color: #FFC;
+	 /*deixa um cor de focuus no fundo*/
+}
+
+.formulario input[name="nomeusuario"]{
+	width: 100%;
+}
+
+.formulario select[name="estadousuario"]{
+	width: 60%;
+}
+
+.formulario input[name="datanascusuario"]{
+	width: 40%;
+}
+
+.formulario input[name="username"]{
+	width: 60%;
+}
+
+.formulario input[name="emailusuario"],[name="ConfirmaEmail"]{
+	width: 70%;
+}
+
+.formulario input[name="senhausuario"],[name="ConfirmaSenha"]{
+	width: 60%;
+}
+
+.CampoTermo {
+	font-size: 18px;
+	text-align: center;
+}
+
+.CampoTermo a {
+	text-decoration: none;
+	color: #008000;
+}
+
+
+
+button {
+    font-size: 1em; /*tamanho da fonte do botão*/
+    border: 1;  /*tamanho da borda do botão*/
+    margin-bottom: 1em; /*espaçameto*/
+    color: #FFFFFF; /*cor do texto do botão*/
+	margin-top:20px;
+	width: 40%;
+	padding: 10px;
+	background: #008000;
+}
+

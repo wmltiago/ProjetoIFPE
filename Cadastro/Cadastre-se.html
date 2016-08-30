@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>	
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Css/StyleCadastrar.css">
+		<script language="javascript" type="text/javascript" src="Js/jquery.js"></script>
+		<script language="javascript" type="text/javascript" src="Js/Validacao.js"></script>
+		<script language="javascript" type="text/javascript" src="Js/jquery.maskedinput.js"></script>
+		<script language="javascript" type="text/javascript" src="Js/mascaras.js"></script>
+		
+</head>
+
+<body>
+	
+	<div class="formulario">	
+		<form name="FormCadastrar" id="FormCadastrar" action="Mysql/CadastrarUsuario.php" method="POST">
+			<fieldset border=1>
+					<legend>CADASTRE-SE</legend>
+				
+				<table class="TabelaCadatro">	
+					<tr>	
+						<div class="CampoNome">	
+
+						<td class="AlinhaTexto"><label>Nome Completo*</label></td>
+						
+						<td><input type="text" name="nomeusuario" placeholder="Digite seu nome completo..." size=40  required /></td>
+								
+						</div>
+					</tr>	
+					<tr>	
+						<div class="CampoEstado">
+						
+						<td class="AlinhaTexto"><label>Estado:</label></td>
+								
+						<td><Select name="estadousuario">
+									<option value="">Selecione seu Estado</option>
+									<option value="SP">São Paulo</option>
+									<option value="PE">Pernambuco</option>
+									<option value="AL">Alagoas</option>
+									<option value="BA">Bahia</option>
+									<option value="RJ">Rio de Janeiro</option>
+									<option value="AM">Amazonas</option>
+								</select></td>				
+						</div>
+					</tr>	
+					
+					<tr>
+						<div class="CampoDataNascimento">
+							
+						<td class="AlinhaTexto"><label>Data de Nascimento*</label></td>
+						
+						<td><input type="text" id="data" name="datanascusuario" placeholder="DD/MM/AAAA" required /></td>
+						
+						</div>
+					</tr>	
+					
+									
+					<tr>		
+						<div class="CampoEmail">	
+							
+						<td class="AlinhaTexto"><label>E-mail*</label></td>
+								<td><input type="text" id="emailusuario" name="emailusuario" placeholder="Digite seu e-mail..." size=30 required /></td>
+					</tr>
+					
+					<tr>	
+						<div class="CampoConfirmaEmail">
+						<td class="AlinhaTexto"><label>Confirme o E-mail*</label></td>
+								<td><input type="text" id="email" name="ConfirmaEmail" placeholder="Confirme seu e-mail..." size=30 required /></td>	
+						</div>
+					</tr>
+					
+					<tr>	
+						<div class="CampoUsername">
+						
+						<td class="AlinhaTexto"><label>Username*</label></td>
+								
+						<td><input type="text" name="username" placeholder="Digite seu Username..." required /></td>
+						</div>
+					</tr>	
+					
+					<tr>		
+						<div class="CampoSenha">	
+							<td class="AlinhaTexto"><label>Senha*</label></td>
+								<td><input type="password" name="senhausuario" placeholder="Digite sua senha..." required /></td>
+					</tr>
+					
+					<tr>
+						<div class="CampoConfirmaSenha">
+							<td class="AlinhaTexto"><label>Confime a Senha*</label></td>
+								<td><input type="password" name="ConfirmaSenha" placeholder="Confime sua senha..."  required /></td>	
+						</div>
+					</tr>
+				</table>		
+						<div class="CampoTermo">
+							<input type="checkbox" name="TermoDeUso" required />
+								Li e aceito os <a href="#">termos de uso e politica de privacidade.</a>
+						
+						</div>
+
+						<div class="BotaoCadastrar">	
+								<center> <button type="submit" name="Cadastrar" >Cadastrar</button> </center>
+						</div>
+				
+			</fieldset>
+		</form>	
+	</div>
+
+
+
+</body>
+
+
+
+</html>

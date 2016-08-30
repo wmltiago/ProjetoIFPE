@@ -1,0 +1,71 @@
+
+body{
+	
+	background: #000000;
+}
+
+
+.formulario fieldset {
+	margin-top:20px;
+    margin-left: 400px ;
+	border-color: #FFFFFF;
+	border-width:2px;
+	font-family: 'Indie Flower', bold;
+	font-size: 18px;
+	color: #FFFFFF;
+	width: 30%;
+	
+	/*Margin define a margem da borda. 
+	Widht o tamanho da borda. 
+	Color cor.*/
+}
+.formulario input[type="text"],[type="password"], select{
+	
+	color: #000000; /*Cor da fonte*/
+	border: 5px; /*tamanho da linha borda dos campos*/
+    border-style: inset; /*estilo da borda*/
+	margin-bottom: 1em; /*espaçamento entre os campos*/
+	border-width:2px; /*tamanho da borda*/
+	padding: 9px;
+	font-size:15px;
+	
+	
+}
+
+.formulario input[type="text"]:focus, input[type="password"]:focus{
+	
+	 background-color: #FFC;
+	 /*deixa um cor de focuus no fundo*/
+}
+
+.formulario input[name="emailusuario"], [name="senhausuario"]{
+	width: 90%;
+}
+
+
+button {
+    font-size: 1em; /*tamanho da fonte do botão*/
+    border: 1;  /*tamanho da borda do botão*/
+    margin-bottom: 1em; /*espaçameto*/
+    color:  #FFFFFF; /*cor do texto do botão*/
+	margin-top:20px;
+	width: 70%;
+	padding: 10px;
+	background: #008000;
+}
+
+
+
+.CampoCadastrar a, 
+.CampoEsqueciSenha a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+}
+
+.CampoCadastrar a:hover, 
+.CampoEsqueciSenha a:hover{
+	color:#008000;
+	
+}

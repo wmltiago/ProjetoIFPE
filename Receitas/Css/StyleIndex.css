@@ -1,0 +1,29 @@
+body{
+background-color:black;	
+color:white;	
+	
+	
+}
+img{
+width:300px;
+height:150px;
+border-radius:30px;
+}
+h3{
+position:relative;	
+left:40%;
+	
+}
+#receita{
+width: 300px;	
+height: 200px;
+background-color:;	
+
+
+margin-top:20%;
+position:relative;
+}
+#tudo{
+width:100%;	
+margin-left:1%;	
+}

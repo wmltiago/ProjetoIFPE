@@ -1,0 +1,150 @@
+
+
+<html>
+
+	<head> 
+			<link rel="stylesheet" type="text/css" href="Css/StyleReceitas.css">
+			<meta charset="utf-8">
+	
+	</head>
+
+
+
+<body>
+
+		<h1> Criando Receita </h1>
+
+	
+		<form action="Mysql/receita.php" name="CriandoReceitas" method="POST">
+			<table>	
+				
+					
+				<tr>	
+					<div >
+					<td class="AlinhaTexto"><label>Adicione o Titulo da Receita</label></td>
+						<td>	
+							<input type="text" name="nomereceita" />
+						</td>
+					</div>	
+				</tr>	
+				
+				<tr>	
+					<div >
+					<td class="AlinhaTexto"><label>Adicione o Logo do filme</label></td>
+						<td>	
+							<input type="file" name="imagenfilme" />
+						</td>
+					</div>	
+				</tr>	
+
+
+				<tr>	
+					<div >
+					<td class="AlinhaTexto"><label>Adicione a Imagen Receita</label></td>
+						<td>	
+							<input type="file" name="imagenreceita" />
+						</td>
+					</div>	
+				</tr>	
+
+
+
+					
+				<tr>	
+					<div>
+					<td class="AlinhaTexto"><label>Adicione o Titulo do Filme</label></td>
+						<td>
+							<input type="text" name="nomefilme" />
+						</td>
+					</div>	
+				</tr>
+
+				<tr>	
+					<div>
+					<td class="AlinhaTexto"><label>Adicione os Igredientes</label></td>
+					
+						<td>
+							<textarea type="text" name="ingredientes"> </textarea>
+						</td>
+					</div>	
+				</tr>
+
+				
+
+				<tr>	
+					<div>
+					<td class="AlinhaTexto"><label>Adicione o passo a passo da Receita</label></td>
+						<td>
+							<textarea type="text" name="passoapasso"> </textarea>
+						</td>
+					</div>	
+				</tr>	
+				<tr>
+					
+
+
+
+				</tr>
+<tr>
+					<div >
+					<td class="AlinhaTexto"><label>Adicione a Categoria da Receita</label></td>
+						<td>	
+							<input type="text" name="categoriareceita" />
+						</td>
+					</div>	
+
+
+
+				</tr>
+<tr>
+					<div >
+					<td class="AlinhaTexto"><label>Adicione o Genero do filme</label></td>
+						<td>	
+							<input type="text" name="generofilme" />
+						</td>
+					</div>	
+
+
+
+				</tr>
+<tr>
+					<div >
+					<td class="AlinhaTexto"><label>Adicione Ano do filme</label></td>
+						<td>	
+							<input type="text" name="anofilme" />
+						</td>
+					</div>	
+
+
+
+				</tr>
+
+<tr>
+					<div >
+					<td class="AlinhaTexto"><label>Adicione a Frase do Filme</label></td>
+						<td>	
+							<input type="text" name="frasefilme" />
+						</td>
+					</div>	
+
+
+
+				</tr>
+<tr>
+					<div >
+					<td class="AlinhaTexto"><label>Adicione a Descrição do filme</label></td>
+						<td>	
+							<textarea type="text" name="descfilme"> </textarea>
+						</td>
+					</div>	
+
+
+
+				</tr>		
+</table>	
+				
+				<center>	<button type="submit" id="CriarReceita">Criar Receita</button> </center>
+		</form>
+				
+</body>
+</html>
